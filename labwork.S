@@ -35,14 +35,8 @@ main:
 	# wait a little
 	li	$a0,0x0fffffff
 	jal	delay
-jal	delay
 	nop
-jal	delay
-	nop
-jal	delay
-	nop
-jal	delay
-	nop
+
 	# call tick
 	la	$a0,mytime
 	jal	tick
@@ -320,8 +314,8 @@ while:
 	#nested block initialization
 	addi $t0, $0, 0x0 #initiate i
 
-	lui $t3, 0x0000
-	ori $t3,$t3, 0xffff
+	
+	addi $t3,$0, 0xffff
 ##inner brackets
 for:
 	#i <4711#"was in mars environment"
