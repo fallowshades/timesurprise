@@ -201,7 +201,7 @@ notsurprise:
 #wisdome 1st and snd letter != descriptive 
 surprise:
 
-	PUSH ($ra)
+	PUSH $ra
 	#this is x0:00 and is the first byte to store
 	PUSH $a0 #addr
 	PUSH $a1 #value //!need move to $a0 for hexasc f()
