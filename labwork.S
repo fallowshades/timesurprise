@@ -318,7 +318,7 @@ while:
 	addi $s1, $s1, -1	#ms = ms - 1
 	
 	#nested block initialization
-	addi $t0, $0, -4700 #initiate i
+	addi $t0, $0, 0x0 #initiate i
 
 	lui $t3, 0x7fff
 	ori $t3,$t3, 0xffff
