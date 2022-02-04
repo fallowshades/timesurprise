@@ -33,7 +33,7 @@ main:
 	syscall
 	nop
 	# wait a little
-	li	$a0,0xffffffff
+	li	$a0,0x0fffffff
 	jal	delay
 jal	delay
 	nop
