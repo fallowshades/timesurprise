@@ -312,7 +312,7 @@ while:
 	
 	#nested block initialization
 	addi $t0, $0, 0 #initiate i
-	addi $t3, $0, 4711	
+	addi $t3, $0, 47110000	
 ##inner brackets
 for:
 	#i <4711000
