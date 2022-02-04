@@ -315,7 +315,7 @@ while:
 	addi $t3, $0, 4711	
 ##inner brackets
 for:
-	#i <4711
+	#i <4711000
 	slt $t1, $t0, $t3  #i < delay --> 1 if ture
 	beq $t1,$0, while	#back to while once i is not< constant
 	nop
