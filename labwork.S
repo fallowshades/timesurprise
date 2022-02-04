@@ -33,7 +33,7 @@ main:
 	syscall
 	nop
 	# wait a little
-	li	$a0,0x000f0000
+	li	$a0,16982
 	jal	delay
 	nop
 
@@ -315,8 +315,8 @@ while:
 	addi $t0, $0, 0x0 #initiate i
 
 	
-	lui $s3, 0x0001
-	ori $t3, $0, 0xff00
+	
+	addi $t3, $0, 4711
 ##inner brackets
 for:
 	#i <4711#"was in mars environment"
