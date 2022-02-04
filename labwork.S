@@ -315,7 +315,7 @@ while:
 	addi $t0, $0, 0x0 #initiate i
 
 	
-	addi $t3,$0, 0xffff
+	addi $t3,$0, 0x80000
 ##inner brackets
 for:
 	#i <4711#"was in mars environment"
