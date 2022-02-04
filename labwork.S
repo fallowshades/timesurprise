@@ -33,7 +33,7 @@ main:
 	syscall
 	nop
 	# wait a little
-	li	$a0,1000000
+	li	$a0,0x55555555
 	jal	delay
 	nop
 	# call tick
@@ -312,7 +312,7 @@ while:
 	
 	#nested block initialization
 	addi $t0, $0, 0 #initiate i
-	addi $t3, $0, 47110000	
+	addi $t3, $0, 65535
 ##inner brackets
 for:
 	#i <4711000
