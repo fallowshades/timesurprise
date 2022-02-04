@@ -301,7 +301,7 @@ delay:
 while: 
 
 
-	#whil3e( 0 < arg)
+	#whil3e( 0 < arg)git 
 	slt $t1, $0 , $s1	#0 < $a0  --> 1 if ture(the reverse statement
 	bne $t1, $0, done	#t1 = conditiond-> do if not equal, ie logic 1=true
 	#beq $s1, $0, done #if equal other wise 0 = rist infinite loops (-1 is counter productive)
@@ -313,11 +313,11 @@ while:
 	#nested block initialization
 	addi $t0, $0, 0 #initiate i
 
-	addi $t5, $0, 65535 #need more sp.. slow
-	addi $t3, $t5, 65535
+	lui $t3, 0xffff
+	ori $t3,$t3, 0xffff
 ##inner brackets
 for:
-	#i <4711000
+	#i <4711#"was in mars environment"
 	slt $t1, $t0, $t3  #i < delay --> 1 if ture
 	beq $t1,$0, while	#back to while once i is not< constant
 	nop
