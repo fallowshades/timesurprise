@@ -320,7 +320,7 @@ while:
 	#nested block initialization
 	addi $t0, $0, 0x0 #initiate i
 
-	lui $t3, 0x7fff
+	lui $t3, 0x0000
 	ori $t3,$t3, 0xffff
 ##inner brackets
 for:
