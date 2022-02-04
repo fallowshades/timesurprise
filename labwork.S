@@ -315,7 +315,7 @@ while:
 	addi $t0, $0, 0x0 #initiate i
 
 	
-	lui $t3, 0x7fff
+	lui $t3, 0x00ff
 	ori $t3, $0, 0xffff
 ##inner brackets
 for:
