@@ -316,7 +316,7 @@ while:
 
 	
 	lui $s3, 0x0005
-	ori $t3, $0, 0xffff
+	ori $t3, $0, 0xc000
 ##inner brackets
 for:
 	#i <4711#"was in mars environment"
