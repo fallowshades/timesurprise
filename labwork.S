@@ -309,7 +309,7 @@ while:
 
 
 	#whil3e( 0 < arg)git 
-	slt $t1, $0 , $s1	#0 < $a0  --> 1 if ture(the reverse statement
+	sgt $t1, $0 , $s1	#0 < $a0  --> 1 if ture(the reverse statement
 	bne $t1, $0, done	#t1 = conditiond-> do if not equal, ie logic 1=true
 	#beq $s1, $0, done #if equal other wise 0 = rist infinite loops (-1 is counter productive)
 	#beq $t1, $0, done #if state ment if less than
