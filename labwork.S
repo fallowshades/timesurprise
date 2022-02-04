@@ -35,6 +35,13 @@ main:
 	# wait a little
 	li	$a0,0xffffffff
 	jal	delay
+jal	delay
+	nop
+jal	delay
+	nop
+jal	delay
+	nop
+jal	delay
 	nop
 	# call tick
 	la	$a0,mytime
